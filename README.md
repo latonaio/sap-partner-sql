@@ -11,7 +11,11 @@ https://api.sap.com/api/partner/overview
 ## sqlの設定ファイル
 sap-partner-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-partner-sql-basic-data.sql（SAPパートナー - パートナー基本データ）
+* sap-partner-sql-basic-data.sql（SAP パートナー - パートナー基本データ）
+* sap-partner-sql-partner-address-collection-data.sql（SAP パートナー - パートナー宛先データ）
+* sap-partner-sql-partner-programs-collection-data.sql（SAP パートナー - パートナープログラムデータ）
+* sap-partner-sql-partner-product-dimensions-data.sql（SAP パートナー - パートナー製品ディメンションデータ）
+* sap-partner-sql-partner-contact-collection-data.sql（SAP パートナー - パートナー交際データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
